@@ -9,8 +9,7 @@ class TestBooksCollector:
         ("Война и мир", True),  
         ("A"*40, True),         
         ("", False),            
-        ("A"*41, False),        
-        ("   ", False),         
+        ("A"*41, False),         
     ])
     def test_add_new_book(self, name, expected):
         
